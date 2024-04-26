@@ -1,0 +1,38 @@
+{
+  "name": "geographyscene",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:development": "vite --mode development",
+    "dev:production": "vite --mode production",
+    "dev:test": "vite --mode test",
+    "build": "vite build",
+    "build:development": "vite build --mode development",
+    "build:prod": "vite build --mode production",
+    "build:test": "vite build --mode test",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@tweenjs/tween.js": "^18.6.4",
+    "axios": "^1.4.0",
+    "cesium-navigation-es6": "^3.0.8",
+    "coordtransform": "^2.1.2",
+    "echarts": "^5.4.2",
+    "element-plus": "^2.2.0",
+    "gsap": "^3.12.1",
+    "mitt": "^3.0.0",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.2",
+    "rollup-plugin-glsl": "^1.3.0",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "cesium": "^1.106.1",
+    "vite": "^4.3.9",
+    "vite-plugin-cesium": "^1.2.22"
+  }
+}
